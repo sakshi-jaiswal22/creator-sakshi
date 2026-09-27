@@ -36,7 +36,7 @@ var _jsxFileName = "/app/frontend/src/App.js",
 
 
 const instagram = "https://www.instagram.com/careerbeyond_degree/";
-const portraitUrl = "https://customer-assets-agu9un31.emergentagent.net/job_creator-sakshi/artifacts/rt1rvots_Professional_photo.jpeg";
+const portraitUrl = "./assets/rt1rvots_Professional_photo.jpeg";
 const reels = ["DXRjngdD3Uo", "DbYITFJogw_", "DaiDj4wSQMY", "DYmrzuvPSGT", "DYM4YmTTDZb", "DWbq1Vrj7ju", "DbPh1NmIJcK"].map(id => `https://www.instagram.com/reel/${id}/`);
 const collabs = [["Academically Global", "https://www.instagram.com/reel/DXg7QdrDx2X/"], ["LearnTube.ai", "https://www.instagram.com/reel/DZkPbIlPfx8/"], ["Upsurge Infotech", "https://www.instagram.com/reel/DbvUq-gIHMz/"], ["Academically Global", "https://www.instagram.com/reel/DcBUWrRo6G9/"], ["Powersutra", "https://www.instagram.com/reel/DUDrJ46kguU/"]];
 const Stat = ({
@@ -247,7 +247,7 @@ function App() {
         columnNumber: 7
       }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxDEV)("a", {
         className: "nav-cta",
-        href: "/MEDIA_KIT.pdf",
+        href: "./assets/MEDIA_KIT.pdf",
         "data-testid": "nav-media-kit-link",
         "x-file-name": "App",
         "x-line-number": "43",
@@ -1990,7 +1990,7 @@ function App() {
           columnNumber: 152
         }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxDEV)("a", {
           className: "media-kit",
-          href: "/MEDIA_KIT.pdf",
+          href: "./assets/MEDIA_KIT.pdf",
           "data-testid": "media-kit-download",
           "x-file-name": "App",
           "x-line-number": "66",
@@ -27408,25 +27408,6 @@ if (true) {
 
 /***/ },
 
-/***/ "./node_modules/@emergentbase/overlay/dist/cjs/webpack-client.js"
-/*!***********************************************************************!*\
-  !*** ./node_modules/@emergentbase/overlay/dist/cjs/webpack-client.js ***!
-  \***********************************************************************/
-(module) {
-
-"use strict";
-
-
-const hot = module.hot;
-// Dispose precedes replacement code: errors raised by that code must remain visible.
-hot?.addStatusHandler(status => {
-  if (status === "dispose") {
-    window.dispatchEvent(new Event("emergent-overlay:beforeUpdate"));
-  }
-});
-
-/***/ },
-
 /***/ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js"
 /*!***************************************************************************************!*\
   !*** ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ***!
@@ -30950,7 +30931,7 @@ var QueryClientProvider = ({
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3a1c05c243edccb5032f")
+/******/ 		__webpack_require__.h = () => ("a75224823569b5fb7b22")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
@@ -32008,7 +31989,6 @@ var QueryClientProvider = ({
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	__webpack_require__("./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
-/******/ 	__webpack_require__("./node_modules/@emergentbase/overlay/dist/cjs/webpack-client.js");
 /******/ 	__webpack_require__("./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=443&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%2C%22runtimeErrors%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true");
 /******/ 	__webpack_require__("./node_modules/webpack/hot/dev-server.js");
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
